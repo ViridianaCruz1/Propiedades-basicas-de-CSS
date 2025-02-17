@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#starbucksIcon{
+    display: inline-block;
+    background-image: url("https://www.starbucks.com.mx/static/images/logo.svg");
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+
+}
+
+header{
+    height: 90px;
+    margin: 0 9% 0 9%;
+}
+
+nav{
+    background-color: #fefefe;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+section img{
+    width: 50%;
+}
+
+.navBarButton, #starbucksIcon{
+    vertical-align: middle;
+}
+.navBarButton{
+    display: inline-block;
+    font-weight: bold;
+    font-size: smaller;
+    /* margin: 0 20px; */
+}
+.navBarButton a{
+    color: #1e3932;
+    padding-bottom: 29px; /*Para hacer que en el hover se ilumine el fondo*/
+}
+.navBarButton a:hover{
+    border-bottom: 8px solid #00754a;
+    color: #00754a;
+}
+
+#menuButton{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#locationIcon{
+    margin-left: 580px;
+    width: 15px;
+    height: 22px;
+}
+#locationText{
+    color: #212121;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 35px;
+}
+
+#ingresarButton button{
+    margin-right: 20px;
+    background-color: white;
+    border-color: black;
+}
+#ingresarButton button:hover{
+    background-color: black;
+    color: white;
+}
+
+#uneteButton button{
+    background-color: black;
+    color: white;
+}
+#uneteButton button:hover{
+    background-color: white;
+    color:black;
+}
+
+/*BANNERS*/
+#latteStarbucks h1, #cortado h1, #love h1, #puebla h1, #recompensas h1, #vasos h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+#latteStarbucks p, #cortado p, #love p, #puebla p, #recompensas p, #vasos p{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+#latteStarbucks div, #cortado div, #love div, #puebla div, #recompensas div, #vasos div{
+    align-content: center;
+    padding: 0 65px;
+}
+
+/* PRIMER BANNER */
+#love{
+    display: flex;
+    background-color: #e41339;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 4%;
+    height: 440px;
+}
+
+/* SEGUNDO BANNER */
+#latteStarbucks{
+    display: flex;
+    background-color: #1e3932;
+    color: white;
+    text-align: center;
+    margin: 5px 4%;
+    height: 440px;
+}
+
+/* TERCER BANNER */
+#cortado{
+    display: flex;
+    background-color:#cae390;
+    color: #1e3932;
+    text-align: center;
+    margin: 5px 4%;
+    height: 462px;
+}
+
+/* CUARTO BANNER */
+#puebla{
+    display: flex;
+    background-color:#f5e1a4;
+    color: #204285;
+    text-align: center;
+    margin: 5px 4%;
+    height: 468px;
+}
+
+/* QUINTO BANNER */
+#recompensas{
+    display: flex;
+    background-color:#1e3932;
+    color: white;
+    text-align: center;
+    margin: 5px 4%;
+    height: 440px;
+}
+
+/* SEXTO BANNER */
+#vasos{
+    display: flex;
+    background-color:#474a6f;
+    color: white;
+    text-align: center;
+    margin: 5px 4%;
+    height: 468px;
+}
+
+/* PRIMERA MITAD BANNER */
+#noticias{
+    display: inline-block;
+    background-color:#cae390;
+    color: #1e3932;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 0 0 4%;
+    height: 700px;
+    width: 45%;
+}
+
+/* SEGUNDA MITAD BANNER */
+#promos{
+    display: inline-block;
+    background-color:#1e3932;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 4% 0 0;
+    height: 700px;
+    width: 45%;
+}
+
+/* DIVISION DE PANTALLA */
+.division img{
+    width: 100%;
+}
+
+.division p{
+    margin-top: 60px;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.columnas{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+/* BOTONES */
+.division button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.button{
+    height: 31px;
+    width: 95px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#buttonNews{
+    background-color: #cae390;
+    border-color: #1e3932;
+    color: #1e3932;
+}
+#buttonNews:hover{
+    background-color: #1e3932;
+    color: #cae390;
+}
+
+#buttonPromos{
+    background-color: #1e3932;
+    border-color: white;
+    color: white;
+}
+#buttonPromos:hover{
+    color: #1e3932;
+    background-color: white;
+}
+
+
+#buttonVasos{
+    background-color: #474a6f;
+    border-color: white;
+    color: white;
+    width: 127px;
+    margin-top: 10px;
+}
+#buttonVasos:hover{
+    background-color: white;
+    color: #474a6f;
+}
+
+
+/* PRE FOOTER */
+.prefooter{
+    margin: 0 10.5% 0 10.5%;
+    box-shadow: black;
+}
+
+.footer1{
+    display: inline-block;
+}
+
+.footer1 h2{
+    color: #212121;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.footer1 p{
+    color: #777777;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#aboutUs, #atencion{
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+#atencion{
+    margin-left: 50px;
+}
+
+/* FOOTER SOCIAL MEDIA */
+hr{
+    border: none;
+    background-color: #eeeeee;
+    height: 0.5px;
+}
+
+.socialMedia, .politicas{
+    margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia img{
+    margin-top: 20px;
+    width: 35px;
+    height: 35px;
+    align-content: center;
+}
+
+.socialMedia div{
+    display: inline-block;
+    margin: 0 20px 20px ;
+}
+
+/* FOOTER POLITICAS */
+.politicas a, .politicas p{
+    color: #999;
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-right: 20px;
+}
+
+.politicas #legend1{
+    display: block;
+    color: #999;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.politicas #legend2{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: block;
+    color: #999;
+    font-weight: 300;
+    font-size: 10px;
+}
